@@ -1,0 +1,108 @@
+ *{
+            box-sizing: border-box;
+        }
+        p{
+            margin-block-start: 0em;
+    margin-block-end: 0em;
+        }
+        ul,li{
+            list-style: none;
+            padding: 0;
+        }
+        .nav {
+            width: 1200px;
+            margin: 0 auto;
+            flex-direction: row;
+        }
+
+        .container{
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            background: #808080;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #333;
+            padding: 20px;
+        }
+
+        .left {
+            width: 150px;
+            color: #fff;
+            line-height: 40px;
+            font-size: 30px;
+        }
+
+        .right {
+
+            flex: 1;
+        }
+
+        .right input {
+            width: 100%;
+            line-height: 30px;
+            font-size: 20px;
+            padding: 5px;
+
+
+        }
+        .list1num,.list2num{
+            float: right;
+        }
+
+        .list1 ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #222;
+            background: #fff;
+            margin-top: 10px;
+        }
+        .list1 ul li p{
+         font-size: 20px;
+         line-height: 30px;
+        }
+        .list1 ul li button{
+            
+           height: 30px;
+        }
+
+
+
+        .list2 ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #222;
+            background: #dfd8d8;
+        }
+        .list2 ul li p{
+         font-size: 20px;
+         line-height: 30px;
+        }
+        .list2 ul li button{
+            
+           height: 30px;
+        }
+
+       .btn{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .btn button{
+        font-size: 20px;
+       }
+
+       li   p  input[disabled]{
+        background: #333;
+       }
